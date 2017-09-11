@@ -50,7 +50,7 @@ get_header();
                              style="background:url(/wp-content/themes/renyin/resources/images/bt_bj2.jpg) center;"><span
                                     style="width:315px;">论坛学术指导委员会</span></div>
                         <div id="demo3a"
-                             style="overflow:hidden;height:400px;height:400px\9;*height:400px; margin-top:10px;">
+                             style="overflow:hidden;height:400px;margin-top:10px;">
                             <div id="demo4a">
                                 <table width="99%" border="0" cellpadding="4" cellspacing="0"
                                        style="line-height:26px;">
@@ -109,11 +109,9 @@ get_header();
                             </div>
                         </div>
                         <script>
-                            var speeda1 = 30
-                            document.getElementById("demo5a").innerHTML = document.getElementById("demo4a").innerHTML
-
+                            var speeda1 = 30;
+                            document.getElementById("demo5a").innerHTML = document.getElementById("demo4a").innerHTML;
                             function Marqueea1() {
-                                console.log(document.getElementById("demo5a").offsetTop - document.getElementById("demo3a").scrollTop);
                                 if (document.getElementById("demo5a").offsetTop - document.getElementById("demo3a").scrollTop <= 0)
                                     document.getElementById("demo3a").scrollTop -= document.getElementById("demo4a").offsetHeight
                                 else {
