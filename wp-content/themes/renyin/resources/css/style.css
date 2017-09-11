@@ -1,0 +1,157 @@
+/*全局定义*/
+body{margin:0px; padding:0px; font-size:12px; color:#000; font-family:Arial;}
+a{color:#000; text-decoration:none;}
+p{margin:0px; padding:0px;}
+span{margin:0px; padding:0px;}
+ul{margin:0px; padding:0px; list-style-type:none;}
+img{border:0px;}
+
+.ban{width:1004px; height:350px; margin:0 auto; background-color:#FFF;}
+
+
+/*大框*/
+.mian{width:100%; height:auto; overflow:hidden; margin:0 auto;}
+
+/*主体区域*/
+.mian_m{width:100%; height:auto; overflow:hidden; margin:0 auto;}
+
+/*头部*/
+.head{width:1004px; height:auto; margin:0 auto;}
+.logo{width:1004px; height:260px; margin:0 auto; background:url(../images/logo_bj.jpg) no-repeat top center;}
+.logo .tu{width:99px; height:128px; float:left; background:url(../images/logo.jpg) center no-repeat;}
+.logo .zi{width:605px; height:128px; float:left; text-align:center;}
+.logo p{font-size:14px; margin-top:10px;}
+
+.menu{width:1004px; height:39px; }
+.nav{width:1004px; height:39px; margin:0 auto; background-color:#fff;}
+.nav ul li{float:left; line-height:39px; position:relative;z-index:999;}
+.nav ul li a, .nav ul li a:visited{color:#000; display:block; text-align:center; line-height:39px; padding:0 32px;}
+.nav ul li a:hover{text-decoration:none;}
+.nav ul li:hover{background:#999;}
+.nav ul li.current-menu-item{background:#999;}
+.nav ul li.current-menu-item a{color:#fff;}
+.nav ul li:hover a{color:#fff;}
+.nav ul li ul{display: none;}
+.nav ul li ul:hover a{color:#fff; background:#CCC;}
+.nav ul li:hover ul {display:block; position:absolute; top:39px; left:0; z-index:999999;}
+.nav ul li:hover ul li a, .nav ul li:hover ul li a:visited{display:block; background:grey; text-align:left; color:#FFF; width:49px;}
+.nav ul li:hover ul li a:hover {background:#CCC; color:#000;}
+
+/*中间*/
+.midd{width:100%; height:auto; overflow:hidden; }
+.midd_m{width:976px; height:auto; overflow:hidden; margin:0 auto; background-color:#FFF; padding-left:14px; padding-right:14px;}
+
+/*logo图片区*/
+.link{width:976px; height:140px; border-bottom:1px solid #494949;}
+.link .bt{width:926px; height:25px; border-bottom:1px solid #494949; padding-left:50px;}
+.link .bt span{display:block; width:648px; height:14px; border-bottom:1px solid #FFFFFF; padding-top:11px; color:#1F276F; font-size:14px; text-align:center;}
+.link .neir{width:976px; height:114px;}
+.link .neir ul{margin-top:15px;}
+.link .neir ul li{float:left; margin-left:18px; text-align:center; vertical-align:middle;}
+.link .neir ul li a{line-height:35px;}
+.link .neir ul li a:hover{text-decoration:underline;}
+
+/*中间左侧区域*/
+.left{width:765px; height:auto; overflow:hidden; float:left; margin-top:14px; margin-right:14px;}
+.left_bt{width:765px; height:34px; border-bottom:1px solid #494949; font-size:16px; font-weight:bold; line-height:34px;}
+.left_neir{
+	width:745px; height:auto; overflow:hidden; padding:10px;
+}
+.left_neir table td{
+	border: 1px #3A3A3A solid;
+	font-size: 14px;
+	line-height:32px;
+	padding-left: 28px;
+}
+.left_neir table{
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.table_neir table td{
+	border: 1px #3A3A3A solid;
+	font-size: 14px;
+	line-height:32px;
+	padding-left: 28px;
+}
+
+.table_neir  table{
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+.left_neir p{
+	line-height:32px;
+	text-align:justify;
+	font-size: 14px;
+}
+.left_neir p a{color:#06F;}
+
+/*5张切换图*/
+.banner{width:765px; height:330px;}
+
+/*About WDD-2014*/
+.aw{width:765px; height:auto; float:left;}
+.aw .bt{width:765px; height:46px; margin-bottom:10px;}
+.aw .bt span{display:block; width:230px; height:37px; line-height:20px; float:left; padding-top:9px; margin-left:60px; color:#FFF; font-size:16px; font-weight:bold;}
+.aw .neir{width:765px; height:auto; margin-bottom:10px;}
+.aw .neir p{line-height:25px; text-align:justify;}
+.aw .neir .sp_t{width:183px; height:70px; float:left; margin-left:5px; margin-top:5px; border:1px dashed #E5B8B7; margin-bottom:10px;}
+.aw .neir .sp_t span.track{display:block; height:65px; line-height:16px; margin-top:10px; color:#E36C0A;}
+.aw .neir .sp_t span.clock{display:block; height:25px; line-height:25px; margin-top:7px; padding-left:30px; background:url(../images/clock.jpg) no-repeat left;}
+
+/*Nobel Laureates-2014*/
+.nl{width:765px; height:auto;}
+.nl .bt{width:715px; height:25px; border-bottom:1px solid #494949; padding-left:50px;}
+.nl .bt span{display:block; width:163px; height:16px; border-bottom:1px solid #FFFFFF; padding-top:9px; color:#1F276F; font-size:16px; text-align:center;}
+.nl .neir{width:765px; height:auto;}
+
+/*Program Layout*/
+.pl{width:765px;  height:auto; overflow:hidden;}
+.pl .bt{width:715px; height:25px; border-bottom:1px solid #494949; padding-left:50px;}
+.pl .bt span{display:block; width:120px; height:16px; border-bottom:1px solid #FFFFFF; padding-top:9px; color:#1F276F; font-size:16px; text-align:center;}
+.pl .neir{width:765px; height:auto; overflow:hidden;}
+.pl .neir table td{ padding-left:10px;}
+
+/*Matchmaking & Partnership*/
+.mp{width:765px; height:auto; margin-top:10px;}
+.mp .bt{width:715px; height:25px; border-bottom:1px solid #494949; padding-left:50px;}
+.mp .bt span{display:block; width:120px; height:16px; border-bottom:1px solid #FFFFFF; padding-top:9px; color:#1F276F; font-size:16px; text-align:center;}
+.mp .neir{width:765px; height:auto; padding-top:10px;}
+.mp .neir p{font-weight:bold; line-height:20px; margin-top:10px; text-align:justify;}
+
+/*中间右侧区域*/
+.right{width:195px; height:auto; overflow:hidden; float:left; margin-top:14px; border:1px solid #494949; margin-bottom:10px;}
+
+
+/*Hosting Organizations*/
+.ho{width:195px; height:auto; overflow:hidden;}
+.ho .bt{width:195px; height:34px; line-height:34px; text-align:center; font-size:14px; font-weight:bold; color:#FFF; background:url(../images/r1.jpg) no-repeat;}
+.ho .neir{width:195px; height:auto; padding:10px 0; overflow:hidden; text-align:center;}
+.ho .neir p{margin-top:5px; line-height:20px;}
+
+
+
+/*中间kongg区域*/
+.kongg{width:974px; height:78px; float:left; border:1px  solid #494949; background-color:#EFEFF0; margin-bottom:14px;}
+
+/*foot页脚区域*/
+.foot{width:1004px; height:160px; margin:0 auto; background-color:#151D20;}
+.foot_ci{width:976px; height:160px; margin:0 auto; padding-left:14px; padding-right:14px;}
+
+.f_left{width:974px; height:160px; float:left;}
+.f_left .bt{width:924px; height:25px; border-bottom:1px solid #FFF; padding-left:50px;}
+.f_left .bt span{display:block; width:85px; height:16px; border-bottom:1px solid #151D20; padding-top:9px; color:#FFF; font-size:16px; text-align:center;}
+.f_left .neir{width:765px; height:134px;}
+.f_left .neir p{line-height:20px; margin-top:10px; text-align:justify; color:#FFF;}
+
+.f_right{width:195px; height:160px; float:left; margin-left:14px;}
+.f_right .bt{width:155px; height:25px; border-bottom:1px solid #FFF; padding-left:40px;}
+.f_right .bt span{display:block; width:105px; height:16px; border-bottom:1px solid #494949; padding-top:9px; color:#FFF; font-size:16px; text-align:center;}
+.f_right .neir{width:195px; height:134px; text-align:center; vertical-align:middle;}
+.f_right .neir img{margin-top:15px;}
+
+.clssMainRoll {
+	/*FILTER: progid:DXImageTransform.Microsoft.Slide(slidestyle=SWAP,Bands=1); CURSOR: pointer*/
+}
