@@ -31,7 +31,7 @@
     <div class="right-item">
         <div class="title">论坛主席</div>
         <div class="content">
-            <p><img width="112"
+            <p><img width="180"
                     src="/wp-content/themes/renyin/resources/images/chenshanguang.jpeg"><br>
                 陈善广 </p>
         </div>
@@ -104,9 +104,9 @@
 
                 -->
             </style>
-            <div id="demod" style="overflow:hidden;height:500px;width:190px">
+            <div id="demod" style="overflow:hidden;height:500px;width:100%">
                 <div id="demo1d">
-                    <table width="190" border="0">
+                    <table width="100%" border="0">
                         <tbody>
                         <?php
                         $original_query = $wp_query;
@@ -228,9 +228,9 @@
 
                 -->
             </style>
-            <div id="demod1" style="overflow:hidden;height:500px;width:190px">
+            <div id="demod1" style="overflow:hidden;height:500px;width:100%">
                 <div id="demo3d">
-                    <table width="190" border="0">
+                    <table width="100%" border="0">
                         <tbody>
                         <?php
                         $original_query = $wp_query;
