@@ -282,7 +282,7 @@ body {
   font-size: 48px;
 }
 .foot {
-  margin: 40px 0 0 0;
+  margin: 100px 0 0 0;
 }
 .foot .item {
   float: left;
@@ -293,17 +293,18 @@ body {
   color: #AEAEAE;
   border-right: #C2C2C2 1px solid;
   margin-right: 38px;
+  height: 160px;
 }
 .foot .item.last {
   margin-right: 0px;
   border: none;
 }
 .foot .copyright {
-  margin-top: 20px;
+  margin-top: 50px;
   display: inline-block;
   width: 100%;
   line-height: 50px;
-  border-top: 1px solid #C2C2C2;
+  border-top: 1px solid #000000;
 }
 body,
 html {
