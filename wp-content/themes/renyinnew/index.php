@@ -59,8 +59,8 @@ get_header();
                             $wp_query = null;
                             $args = array(
                                 'post_type' => array("wp_xueshus"),
-                                'posts_per_page' => 100,
-                                'order' => 'DESC' // not required because it's the default value
+                                'posts_per_page' => -1,
+                                'order' => 'ASC' // not required because it's the default value
                             );
                             $wp_query = new WP_Query($args);
                             $i = 0;
