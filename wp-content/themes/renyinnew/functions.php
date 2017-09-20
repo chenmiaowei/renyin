@@ -77,7 +77,8 @@ add_theme_support('title-tag');
 add_theme_support('post-thumbnails');
 
 add_image_size('sli_thumbnail', 141, null, array('left', 'top'));
-add_image_size('tou_thumbnail', 80, 100, array('left', 'top'));
+add_image_size('tou_thumbnail', 80, 100, array('center', 'center'));
+add_image_size('tou1_thumbnail', 80, 100, array('center', 'center'));
 add_image_size('meiti_thumbnail', 124, null, array('left', 'top'));
 
 

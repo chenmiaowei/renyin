@@ -74,7 +74,7 @@ get_header();
                                     ?>
                                     <a class='item-child' href="<?= get_post_permalink() ?>">
                                         <div class="thumb">
-                                            <?php the_post_thumbnail("tou_thumbnail") ?>
+                                            <?php the_post_thumbnail("tou1_thumbnail") ?>
                                         </div>
                                         <div class="con">
                                             <strong><?= get_the_title() ?></strong>
