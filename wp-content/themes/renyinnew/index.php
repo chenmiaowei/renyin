@@ -51,7 +51,7 @@ get_header();
                 </div>
                 <div class="left-item">
                     <div
-                            class="title"><span >论坛学术指导委员会</span></div>
+                            class="title"><span >参会人员简介</span></div>
                     <div class="item-content zhidao">
                         <div id="owl-demo-2" class="owl-carousel owl-theme">
                             <?php
@@ -70,7 +70,7 @@ get_header();
                                         echo "<div class='item'>";
                                     }
                                     ?>
-                                    <div class='item-child'>
+                                    <a class='item-child' href="<?= get_post_permalink() ?>">
                                         <div class="thumb">
                                             <?php the_post_thumbnail("tou_thumbnail") ?>
                                         </div>
@@ -81,7 +81,7 @@ get_header();
                                             <br>
                                             <?= get_post_meta(get_the_ID(), "company", true) ?>
                                         </div>
-                                    </div>
+                                    </a>
                                     <?php
                                     if ($i % 2 === 1) {
                                         echo "</div>";
@@ -94,7 +94,7 @@ get_header();
                             $b = 2 - $i % 2;
                             if ($b !== 2) {
                                 for ($j = 0; $j < $b; $j++) {
-                                    echo "<div class='item-child'></div>";
+                                    echo "<a class='item-child'></a>";
                                 }
                                echo  "</div>";
                             }

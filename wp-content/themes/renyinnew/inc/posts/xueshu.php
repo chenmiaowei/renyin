@@ -14,11 +14,11 @@ function xueshu_create_post_type()
 
     $args = array(
         'labels' => array(
-            'name' => "论坛学术指导委员会",
-            'singular_name' => "论坛学术指导委员会",
+            'name' => "参会人员",
+            'singular_name' => "参会人员",
         ),
         'hierarchical' => false,
-        'description' => '论坛学术指导委员会',
+        'description' => '参会人员',
         'supports' => array(
             'title', 'editor', 'excerpt', 'thumbnail'
 //        , 'comments', 'revisions', 'post-formats', 'custom-fields', 'author'
@@ -51,7 +51,7 @@ function xueshu_themes_taxonomy()
         'wp_xueshus',        //post type name
         array(
             'hierarchical' => true,
-            'label' => '论坛学术指导委员会分类',  //Display name
+            'label' => '参会人员分类',  //Display name
             'query_var' => true,
             'rewrite' => array(
                 'slug' => 'xueshus_categories', // This controls the base slug that will display before each term

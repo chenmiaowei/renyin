@@ -25,10 +25,10 @@
 
             $("#owl-example").owlCarousel({
                 navigation: true,
+                pagination: false,
                 slideSpeed: 300,
                 paginationSpeed: 400,
                 singleItem: true,
-                pagination: false,
                 rewindSpeed: 500,
                 navigationText: ["<i class='fa fa-chevron-circle-left'></i>", "<i class='fa fa-chevron-circle-right'></i>"]
             });
@@ -36,6 +36,10 @@
             $("#owl-demo-1").owlCarousel({
                 pagination: false,
                 navigation: true,
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                rewindSpeed: 500,
+                autoPlay : 3000,
                 navigationText: ["<i class='fa fa-chevron-circle-left'></i>", "<i class='fa fa-chevron-circle-right'></i>"]
             });
 
@@ -44,6 +48,10 @@
                 pagination: false,
                 navigation: true,
                 items : 3,
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                rewindSpeed: 500,
+                autoPlay : 3000,
                 navigationText: ["<i class='fa fa-chevron-circle-left'></i>", "<i class='fa fa-chevron-circle-right'></i>"]
             });
 
