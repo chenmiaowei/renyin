@@ -51,14 +51,16 @@ get_header();
                 </div>
                 <div class="left-item">
                     <div
-                            class="title"><span >参会人员简介</span></div>
+                            class="title"><span>参会人员简介</span></div>
                     <div class="item-content zhidao">
                         <div id="owl-demo-2" class="owl-carousel owl-theme">
                             <?php
                             $original_query = $wp_query;
                             $wp_query = null;
                             $args = array(
-                                'post_type' => array("wp_xueshus")
+                                'post_type' => array("wp_xueshus"),
+                                'posts_per_page' => 100,
+                                'order' => 'DESC' // not required because it's the default value
                             );
                             $wp_query = new WP_Query($args);
                             $i = 0;
@@ -96,7 +98,7 @@ get_header();
                                 for ($j = 0; $j < $b; $j++) {
                                     echo "<a class='item-child'></a>";
                                 }
-                               echo  "</div>";
+                                echo "</div>";
                             }
                             $wp_query = null;
                             $wp_query = $original_query;
