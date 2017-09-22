@@ -30,6 +30,7 @@
                 paginationSpeed: 400,
                 singleItem: true,
                 rewindSpeed: 500,
+                autoPlay : 3000,
                 navigationText: ["<i class='fa fa-chevron-circle-left'></i>", "<i class='fa fa-chevron-circle-right'></i>"]
             });
 
@@ -80,8 +81,10 @@
 <div class="slider">
     <div id="owl-example" class="owl-carousel">
         <div class="owl-slide slide-1">
+            <img src="<?= get_template_directory_uri() ?>/resources/images/WechatIMG139.jpeg">
         </div>
         <div class="owl-slide slide-2">
+            <img src="<?= get_template_directory_uri() ?>/resources/images/WechatIMG140.jpeg">
         </div>
     </div>
 </div>

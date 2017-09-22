@@ -201,7 +201,6 @@ body {
   padding: 10px 0;
 }
 .slider {
-  height: 490px;
   width: 100%;
   display: inline-block;
 }
@@ -217,11 +216,8 @@ body {
   background-size: cover;
   background-position: center;
 }
-.slider .owl-carousel .owl-slide.slide-1 {
-  background-image: url('../images/WechatIMG139.jpeg');
-}
-.slider .owl-carousel .owl-slide.slide-2 {
-  background-image: url('../images/WechatIMG140.jpeg');
+.slider .owl-carousel .owl-slide img {
+  width: 100%;
 }
 .slider .owl-carousel div.owl--text {
   position: absolute;
