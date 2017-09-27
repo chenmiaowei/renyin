@@ -161,6 +161,7 @@ body {
   height: 100px;
   margin-left: 10px;
   padding-top: 10px;
+  overflow: hidden;
 }
 .midd .left .page-content {
   line-height: 36px;
