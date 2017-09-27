@@ -32,7 +32,7 @@
         <div class="title">论坛主席</div>
         <div class="content">
             <p><img width="180"
-                    src="/wp-content/themes/renyin/resources/images/chenshanguang.jpeg"><br>
+                    src="/wp-content/uploads/2017/09/007-1-80x100.jpg"><br>
                 陈善广 </p>
         </div>
     </div>
