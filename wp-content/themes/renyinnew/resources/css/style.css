@@ -144,15 +144,14 @@ body {
   display: inline-block;
 }
 .midd .left .item-content.zhidao .item .item-child .thumb {
-  background: url("../images/thumb.jpeg") no-repeat;
+  background: url("../images/thumb.jpeg") no-repeat center center;
   width: 108px;
-  height: 108px;
   background-size: 108px  108px;
   float: left;
 }
 .midd .left .item-content.zhidao .item .item-child .thumb img {
   width: 108px;
-  height: 108px;
+  height: auto;
 }
 .midd .left .item-content.zhidao .item .item-child .con {
   float: left;
