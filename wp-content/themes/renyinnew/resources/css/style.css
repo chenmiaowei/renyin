@@ -146,12 +146,13 @@ body {
 .midd .left .item-content.zhidao .item .item-child .thumb {
   background: url("../images/thumb.jpeg") no-repeat center center;
   width: 108px;
+  height: 147px;
   background-size: 108px  108px;
   float: left;
 }
 .midd .left .item-content.zhidao .item .item-child .thumb img {
   width: 108px;
-  height: auto;
+  height: 147px;
 }
 .midd .left .item-content.zhidao .item .item-child .con {
   float: left;
