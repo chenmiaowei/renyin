@@ -15,25 +15,28 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="4">
                 <tbody>
                 <tr>
-                    <td width="3%"><img src="/wp-content/themes/renyin/resources/images/wod.jpg" width="20"
+                    <td width="3%"><img src="/wp-content/themes/renyinnew/resources/images/wod.jpg" width="20"
                                         height="20"></td>
                     <td width="97%" align="left"><strong><a
-                                    href="/wp-content/themes/renyin/resources/第二届中国人因工程高峰论坛简介.doc">会议简介</a></strong><a
+                                    href="/wp-content/themes/renyinnew/resources/2017第二届中国人因工程高峰论坛.docx">会议简介</a></strong><a
                                 href="会议简介.docx"></a></td>
                 </tr>
                 </tbody>
             </table>
-            <!--img src="/wp-content/themes/renyin/resources/images/12.jpg" border="0" />
+            <!--img src="/wp-content/themes/renyinnew/resources/images/12.jpg" border="0" />
               <p>China Medicinal Biotech Association </p-->
         </div>
     </div>
     <!--Hosting Organizations-->
     <div class="right-item">
-        <div class="title">论坛主席</div>
+        <div class="title">主办单位</div>
         <div class="content">
             <p><img width="180"
-                    src="/wp-content/uploads/2017/09/007-1.jpg"><br>
-                陈善广 </p>
+                    src="/wp-content/themes/renyinnew/resources/images/hangtian_logo.png"><br>
+                中国航天员科研训练中心 </p>
+            <p><img width="180"
+                    src="/wp-content/themes/renyinnew/resources/images/zhejiang_logo.png"><br>
+                浙江大学 </p>
         </div>
     </div>
 
@@ -41,10 +44,10 @@
         <div class="title">指导单位</div>
         <div class="content">
             <p><img width="112"
-                    src="/wp-content/themes/renyin/resources/images/zhengjiangsheng.png"><br>
+                    src="/wp-content/themes/renyinnew/resources/images/zhengjiangsheng.png"><br>
                 浙江省人民政府</p>
             <p><img width="112"
-                    src="/wp-content/themes/renyin/resources/images/zairenhaotian.png"><br>
+                    src="/wp-content/themes/renyinnew/resources/images/zairenhaotian.png"><br>
                 中国载人航天工程办公室</p>
 
         </div>
