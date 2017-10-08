@@ -21,34 +21,38 @@ get_header();
         <div class="container">
             <!--中间左侧区域-->
             <div class="left">
-                <div class="left-item">
-                    <div
-                            class="title"><span
-                                style="width:315px;">会议介绍</span></div>
-                    <div class="about-us item-content">
-                        <div class="thumb">
+                <?php
+                $original_query = $wp_query;
+                $wp_query = null;
+                $args = array('pagename' => 'luntaigaikuang');
+                $wp_query = new WP_Query($args);
+                if (have_posts()) :
+                    while (have_posts()) : the_post();
+                        ?>
 
-                        </div>
-                        <div class="content">
-                            <?php
-                            $original_query = $wp_query;
-                            $wp_query = null;
-                            $args = array('pagename' => 'luntaigaikuang');
-                            $wp_query = new WP_Query($args);
-                            if (have_posts()) :
-                                while (have_posts()) : the_post();
-                                    ?>
+                        <div class="left-item">
+                            <div class="title">
+                                <span>会议介绍</span>
+                                <a class="more" href="<?= get_post_permalink() ?>"></a>
+                            </div>
+                            <div class="about-us item-content">
+                                <div class="thumb">
+
+                                </div>
+                                <div class="content">
                                     <?php the_excerpt() ?>
-                                    <?php
-                                endwhile;
-                            endif;
-                            $wp_query = null;
-                            $wp_query = $original_query;
-                            wp_reset_postdata();
-                            ?>
+
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+
+                        <?php
+                    endwhile;
+                endif;
+                $wp_query = null;
+                $wp_query = $original_query;
+                wp_reset_postdata();
+                ?>
                 <div class="left-item">
                     <div
                             class="title"><span>参会人员简介</span></div>

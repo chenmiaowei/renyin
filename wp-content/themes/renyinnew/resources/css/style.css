@@ -93,6 +93,14 @@ body {
   line-height: 50px;
   border-bottom: 2px solid #E5E5E5;
 }
+.midd .left .left-item .title .more {
+  background: url("../images/more.jpg") no-repeat;
+  width: 50px;
+  display: inline-block;
+  height: 25px;
+  float: right;
+  margin: 15px 0 0 0;
+}
 .midd .left .left-item .item-content {
   margin: 20px 0;
 }
@@ -284,7 +292,7 @@ body {
 .foot .item {
   float: left;
   display: inline-block;
-  width: 270px;
+  width: 374px;
   font-size: 14px;
   line-height: 32px;
   color: #AEAEAE;

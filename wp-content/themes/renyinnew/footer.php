@@ -16,9 +16,8 @@
         <div class="item">
             <br>展文豪<br>手机：13381198096<br>电子邮箱：zhanwenhao2005@126.com<br>
         </div>
-        <div class="item">
-        </div>
         <div class="item last">
+            <br>会议地址：<br>浙江省杭州市余杭区梦栖小镇设计中心北区8号楼国际会议中心
         </div>
     </div>
     <div class="container">
