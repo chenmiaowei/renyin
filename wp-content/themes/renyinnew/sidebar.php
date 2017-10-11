@@ -28,6 +28,13 @@
         </div>
     </div>
     <div class="right-item">
+        <div class="title">承办单位</div>
+        <div class="content">
+            <p>中国航天员科研训练中心人因工程国家级重点实验室</p>
+            <p>浙江大学心理科学研究中心</p>
+        </div>
+    </div>
+    <div class="right-item">
         <div class="title">指导单位</div>
         <div class="content">
             <p><img width="112"
