@@ -27,7 +27,15 @@
               <p>China Medicinal Biotech Association </p-->
         </div>
     </div>
-    <!--Hosting Organizations-->
+    <div class="right-item">
+        <div class="title">指导单位</div>
+        <div class="content">
+            <p><img width="112"
+                    src="/wp-content/themes/renyinnew/resources/images/zairenhaotian.png"><br>
+                中国载人航天工程办公室</p>
+
+        </div>
+    </div>
     <div class="right-item">
         <div class="title">主办单位</div>
         <div class="content">
@@ -37,19 +45,6 @@
             <p><img width="180"
                     src="/wp-content/themes/renyinnew/resources/images/zhejiang_logo.png"><br>
                 浙江大学 </p>
-        </div>
-    </div>
-
-    <div class="right-item">
-        <div class="title">指导单位</div>
-        <div class="content">
-            <p><img width="112"
-                    src="/wp-content/themes/renyinnew/resources/images/zhengjiangsheng.png"><br>
-                浙江省人民政府</p>
-            <p><img width="112"
-                    src="/wp-content/themes/renyinnew/resources/images/zairenhaotian.png"><br>
-                中国载人航天工程办公室</p>
-
         </div>
     </div>
     <div class="right-item">
